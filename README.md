@@ -40,8 +40,7 @@ Conteúdo inserido finalmente(finalizeido)
 >Elementos e atributos utilizados.
 >Links inseridos.
 
-Final do projeto ?
-Faltou inserir imagens eu diria 0-0.
+Final do projeto.
 =======
 
 Projeto-updates
