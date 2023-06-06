@@ -1,74 +1,350 @@
 <!DOCTYPE html>
 <head>
+
     <title>Desafio Html</title>
+   
+    <style>
+        body {
+            background-color: rgb(235, 235, 235);
+            padding-left: 280px;
+            padding-right: 280px;
+        }
+        h1 {
+            color:rgb(21, 58, 21);
+            font-size:40px;}
+        h2,h3,h4,h5,h6 {
+            font-size:30px;
+            color:rgb(255, 138, 138);     
+        }
+        p {width:700px;}
+        li {width:500px;}
+
+    </style>
+
 </head>
+
 <body>
-    <h1 id="#inicio">Inicio
-    <ul>
-        <li><a href= "#historia">Historia</a></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul><hr>
+    
+    <h1 id="inicio">Inicio
+    
+            <ul style="font-size:20px;" >
+    
+                <li><a href= "#historia">Historia</a></li>
+    
+                <li><a href="#internet">Internet</a></li>
+    
+                <li><a href="#funcionamento">Servidor e Client</a></li>
+    
+                <li><a href="#html">HTML</a></li>
+    
+                <li><a href="#link">Links de Referência</a></li>
+    
+            </ul>
+
+            <hr>
+    
     <h2 id="historia"> Historia dos Computadores</h2>
-        <p><strong>A primeira geração de Computadores:</strong></p>
-        Se deu entre os anos de 1940 e 1959, que é o período em que se desenvolveram computadores o qual realizavam milhares<br>
-        de equações por segundo, uma por vez, e que substituíram as máquinas mais rudimentares que realizavam operações de forma<br>
-        manual e semianual.Consistiam, por muitas vezes, de máquinas enormes, muito pesadas e com grande consumo de energia que utilizavam<br>
-        de válvulas a vácuo e sistemas eletrônicos para realizar tais operações e eram programadas em linguagem de máquina, uma linguagem<br>
-        programão de baixo nível, Destacam-se:<br>
+
+    <hr>
+        
+        <p id="prima" style="font-size:20px;"><strong>A primeira geração de Computadores:</strong></p>
+
+        <p> Se deu entre os anos de 1940 e 1959, que é o período em que se desenvolveram computadores o qual realizavam milhares
+            de equações por segundo, uma por vez, e que substituíram as máquinas mais rudimentares que realizavam operações de forma
+            manual e semianual.Consistiam, por muitas vezes, de máquinas enormes, muito pesadas e com grande consumo de energia que 
+            utilizavam de válvulas a vácuo e sistemas eletrônicos para realizar tais operações e eram programadas em linguagem de máquina,
+            uma linguagem programão de baixo nível, Destacam-se:</p>
+        
             <ul>
-                <li>Colossus, foi um uma máquina projetada para decifrar mensagens alemãs durante a segunda guerra mundial, que se utilizava de 15.000<br>
+        
+                <li>Colossus, foi um uma máquina projetada para decifrar mensagens alemãs durante a segunda guerra mundial, que se utilizava de 15.000
                 válvulas a vácuo.</li>
                 <li>Haward Mark 1 Criado em 1944 por Howard Aiken, também combinava o uso de eletrônica e mecânica para o seu funcionamento.</li>
-                <li>ENIAC, considerado o primeiro computador digital eletrônico, conseguindo resolver várias operações de vários tipos por segundo,<br>
+        
+                <li>ENIAC, considerado o primeiro computador digital eletrônico, conseguindo resolver várias operações de vários tipos por segundo,
                 passível de ser reprogramado facilmente, o que o tornava versátil.</li> 
-                <li>UNIVAC 1, o UNIVAC foi criado pelos mesmos criadores do ENIAC com o objetivo de conquistar uma máquina comercial para processar<br>
+        
+                <li>UNIVAC 1, o UNIVAC foi criado pelos mesmos criadores do ENIAC com o objetivo de conquistar uma máquina comercial para processar
                 uma grande quantidade de dados, sendo o primeiro computador automático.</li> 
+        
             </ul>
-        <p>A este tipo de computadores se atribui a expressão “deu bug”, pois insetos eram atraídos para dentro destas máquinas devido ao calor<br>
-          produzido por elas e que por sua vez danificavam as mesmas travando o funcionamento.</p>       
-        <p><strong>Segunda geração:</strong></p>
-        <p>criação dos computadores de segunda geração (1956-1964) foi marcada pela criação de diodos e transistores que permitiram a substituição<br>
-           dos tubos a vácuo, diminuição de seu tamanho gigantesco e utilização da linguagem de programação de alto nível, <u><a href="#assembly">*Assembly</a></u>, embora<br>
+        
+        <p>A este tipo de computadores se atribui a expressão “deu bug”, pois insetos eram atraídos para dentro destas máquinas devido ao calor
+          produzido por elas e que por sua vez danificavam as mesmas travando o funcionamento.</p>
+        
+         <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p> 
+          <hr>     
+        
+        <p style="font-size:20px;"><strong>Segunda geração:</strong></p>
+        
+        <p>criação dos computadores de segunda geração (1956-1964) foi marcada pela criação de diodos e transistores que permitiram a substituição
+           dos tubos a vácuo, diminuição de seu tamanho gigantesco e utilização da linguagem de programação de alto nível, <u><a href="#assembly">*Assembly</a></u>, embora
            básica não era portátil, mas consumia menos recursos.</p>
+        
         <p>Algumas informações importantes são:</p>
+        
             <ul>
+        
                 <li>PDP-1 (1960) que foi o primeiro computador a rodar o que se chamaria de jogo naquela epoca.</li>
+        
                 <li>IBM Strench (1961), o primeiro supercomputador construído com o sistema de transistores.</li>
+        
             </ul> 
-        <p id = "assembly"><u>*Assembly: Código binário representado por uma combinação de números e letras para que o programador pudesse lembrar de<br>
+        
+        <p id = "assembly"><u>*Assembly: Código binário representado por uma combinação de números e letras para que o programador pudesse lembrar de
                            suas funções.</u></p>
-        <p><strong>Terceira geração: </strong></p>
-        <p>Foi o período 1964 a 1971 foi marcada pela implementação de circuitos integrados que permitiu o aumento do processamento, redução do tamanho<br>
-            dos computadores e redução de custo, possibilitou a popularização do uso de sistemas operacionais que permitiam múltiplas tarefas serem realizadas<br>
-            ao mesmo tempo e aumentou o uso de linguagens de programação de alto nível de forma expressiva, surgimento dos minicomputadores e desenvolvimento do Mouse,<br>
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            <hr>
+        
+        <p style="font-size:20px;"><strong>Terceira geração:</strong></p>
+        
+        <p>Foi o período 1964 a 1971 foi marcada pela implementação de circuitos integrados que permitiu o aumento do processamento, redução do tamanho
+            dos computadores e redução de custo, possibilitou a popularização do uso de sistemas operacionais que permitiam múltiplas tarefas serem realizadas
+            ao mesmo tempo e aumentou o uso de linguagens de programação de alto nível de forma expressiva, surgimento dos minicomputadores e desenvolvimento do Mouse,
             alguns destaques foram: 
+            
             <ul>
-                <li>IBM Edgar Series foi o conjunto de computadores que fez a transição entre está geração e a anterior, sendo o primeiro a utilizar circuito<br>
-                 integrado em suas máquinas. </li>
+    
+                <li>IBM Edgar Series foi o conjunto de computadores que fez a transição entre está geração e a anterior, sendo o primeiro a utilizar circuito
+                 integrado em suas máquinas.</li>
+    
                 <li>  PDP-8 foi pioneiro sendo o primeiro minicomputador lançado.</p></li>
+    
             </ul>
-        <p><strong>Quarta Geração</strong></p>
-        <p>Foi o período entre 1971 - 1980 em que os computadores passaram a utilizar microprocessadores invés de circuitos integrados, levando a chegada dos computadores<br>
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            <hr>
+
+        <p style="font-size:20px;"><strong>Quarta Geração:</strong></p>
+    
+        <p>Foi o período entre 1971 - 1980 em que os computadores passaram a utilizar microprocessadores invés de circuitos integrados, levando a chegada dos computadores
            pessoais, outra redução no tamanho dos equipamentos e o acréscimo da utilização de memória  temporária (Ram) e memória de armazenamento de dados (Rom).</p>
-       <p><strong>Quinta Geração:</strong></p>
-       <p>A quinta geração (1980 - atualmente) foi constituída, primeiramente, por computadores mais portáteis e telefones moveis,ou seja, computadores ainda menores<br>
-        capazes de caber na mão de uma pessoa e computadores para se ter em casa e utilizar diariamente, depois por volta dos anos 2000 os smartphones começaram a surgir<br> 
-        adquirindo cada vez mais funções e capacidades de um computador com um tamanho extremamente reduzido, algum tempo entre os anos 2000 e 2010 começou se a trazer<br>
-        computadores não só mais rápidos como com múltiplos núcleos o que reduzia o consumo de recursos e energia, trazendo um melhor aproveitamento de recursos, agora<br>
-        dispositivos moveis, sites e computadores estão extremamente atrelados a algoritmos e maiores recursos de programação, aplicativos mobile  e programas de computador<br>
-        que estão intrinsecamente ligados a praticamente todas as áreas da vida humana.</p>
-       <ul>
-        <li>Apple Macintosh foi o primeiro computador comercial com interface gráfica.</li>
-        <li>Smartfones (Iphone, Samsung e etc...) em geral são uma das maiores marcas deste desenvolvimento, sendo quase impossível viver sem um celular à sua mão.</li>
-        <li>PCs Desktop ou computadores pessoais ainda são muito comuns e utilizados amplamente no mundo de hoje.</li>
-       </ul> 
-       <p><strong>Sexta Geração:</strong></stron></p>
-       <p>Ainda está sendo construída, não há um consenso se as IA* estarão sendo parte na construção da sexta geração ou se o uso de nanotecnologias* e supercondutores*<br>
-        em irá ser a nova geração em definitivo pois as tecnologias ainda estão em desenvolvimento e as inteligências artificiais podem ser consideradas apenas aplicações<br>
-        dentro do da máquina, mas já há computadores quânticos que extremamente poderosos em grandes empresas como o Google.</p>
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            <hr>
+
+        <p style="font-size:20px;"><strong>Quinta Geração:</strong></hp>
+    
+        <p>A quinta geração (1980 - atualmente) foi constituída, primeiramente, por computadores mais portáteis e telefones moveis,ou seja, computadores ainda menores
+            capazes de caber na mão de uma pessoa e computadores para se ter em casa e utilizar diariamente, depois por volta dos anos 2000 os smartphones começaram a surgir
+            adquirindo cada vez mais funções e capacidades de um computador com um tamanho extremamente reduzido, algum tempo entre os anos 2000 e 2010 começou se a trazer
+            computadores não só mais rápidos como com múltiplos núcleos o que reduzia o consumo de recursos e energia, trazendo um melhor aproveitamento de recursos, agora
+            dispositivos moveis, sites e computadores estão extremamente atrelados a algoritmos e maiores recursos de programação, aplicativos mobile  e programas de computador
+            que estão intrinsecamente ligados a praticamente todas as áreas da vida humana.</p>
+    
+            <ul>
+    
+                <li>Apple Macintosh foi o primeiro computador comercial com interface gráfica.</li>
+    
+                <li>Smartfones (Iphone, Samsung e etc...) em geral são uma das maiores marcas deste desenvolvimento, sendo quase impossível viver sem um celular à sua mão.</li>
+    
+                <li>PCs Desktop ou computadores pessoais ainda são muito comuns e utilizados amplamente no mundo de hoje.</li>
+       
+            </ul> 
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            <hr>
+       
+        <p style="font-size:20px;"><strong>Sexta Geração:</strong></stron></p>
+       
+        <p>Ainda está sendo construída, não há um consenso se as <u><a href="#IA">*IA</a></u> estarão sendo parte na construção da sexta geração ou se o uso de <u><a href="#nano">*nanotecnologia</a></u> e <u><a href="#super">*supercondutores</a></u>
+            em irá ser a nova geração em definitivo pois as tecnologias ainda estão em desenvolvimento e as inteligências artificiais podem ser consideradas apenas aplicações
+            dentro do da máquina, mas já há computadores quânticos que extremamente poderosos em grandes empresas como o Google.</p>
+        
+        <p id="IA"><u>*IA ou inteligência artificial é um meio pelo qual uma máquina pode reproduzir capacidades humana, a redes Neurais artificias criadas digitalmente.</u></p>
+        
+        <p id="nano"><u>* Nanotecnologia é a ciência ou tecnológica que estuda ou trabalha em escala atomica.</u></p>
+        
+        <p id="super"><u>*Supercondutores são matérias que conduzem corrente eletrica de forma perfeita assim permitindo um melhor aproveitamento destes materiais para diversas
+             aplicações inclusive em computadores, porém ainda não foi encontrado o material ideal em temperatura ambiente.</u></p>
+            
+            <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+
+            <hr>
+    
+             <h3 id="internet"><strong>Internet</strong></h3>
+             
+        <p style="font-size:20px;"><strong>Como surgiu a Internet</strong></P>
+
+        <p>Ao início da Internet pode se atribuir a vários fatores, inicialmente podemos considerar o modelo estabelecido durante a segunda guerra mundial em que foi passado
+            um cabo submarino de um continente a outro para a troca de informações entre países por meio do <a href="#morse"><u>*código Morse.</u></a> 
+            Após o término da segunda guerra mundial durante a guerra fria (1945 - 1991) em Que EUA e União Soviética se encontravam em um conflito político ideológico e de espionagem,
+            o temor de que um ataque soviético destruísse uma das bases militares americanas com informações cruciais fez surgir a necessidade de haver um backup destas informações de
+            forma rápida para uma possível estratégia de defesa, então foi criada a ARPA (Advanced Research Project Agency) que criou um sistema de troca de informação entre dois pontos
+            geograficamente distantes ArapaNet para esta finalidade, mas com a necessidade . 
+                
+            <ul>
+            
+                <li>Em 1952 ocorreu a primeira conexão entre dois computadores</li>
+            
+            </ul>
+
+        <p>Em 1966 a ARPA criou o plano ARPANET para desenvolver a primeira rede em pacotes então a NCP (Network Control Protocol) foi criada para permitir a comunicação entre computadores
+            que utilizavam linguagens diferentes na época, mas em 1970 a ARPANET já estava consolidada com centenas de computadores conectados, após a primeira rede de noz ser conectada em 1968,
+            mas a NCP não estava dando conta da quantidade de computadores utilizando, foi  então que em 1974 Robert Kahn e Vinton Cerf criaram o protocolo TCP/IP que permitia a comunicação facilitada
+            entre essas redes e não houvesse a necessidade de outra máquina ficar em espera para que a conexão fosse reestabelecida para o envio de dados.</p>
+                
+            <ul>
+                
+                <li>Em 1985 a agora chamada Internet estava consolidada como a principal rede de comunicação mundial.</li>
+            
+            </ul> 
+
+        <p style="font-size:20px;"><strong>World Wide Webe:</strong></p>
+        
+        <p>Foi então que em 1989 Tim Berners Lee criou um sistema que conectava várias universidades de forma mútua permitindo compartilhar trabalhos e pesquisas acadêmicas,
+            mais tarde desenvolvendo o protocolo http que permitia acessar sites na web e o Html que um modo de marcação de texto para web facilitando para que o uso da internet
+            fosse mais difundido.</p>
+
+        <p id="morse"><u>* Código Morse é um sistema binário que utiliza de pontos e linhas para representar letras, números e sinais gráficos com sons curtos e longos.</u></p>
+
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+
+            <hr>
+
+    <h4 id="funcionamento"><strong>Servidor e Client:</strong></h4>
+    
+            <hr>
+
+        <p><i>Client</i> se refere ao computador ou máquina que requisita uma informação, texto, imagem, áudio ou vídeo enquanto <i>Servidor</i> se refere ao computador ou máquina que recebe
+            estes pedidos e envia a os dados de volta, como também pode servir para armazenar esses dados, então quando você abre seu navegador em seu notebook (este seria o client) você
+            envia um pedido de acesso as informações contidas nesse site que estão armazenadas dento do servidor enquanto a máquina que envia as informações de volta para você baixar e ter
+            acesso é o servidor.</p>
+          
+            <ul>
+
+                <li>O processo de envio e recebimento dessas informações ocorre tanto por meio do TCP/IP quanto pelo <i><u><a href="#dns">*DNS</a></u></i>, seu computador tem um e o servidor outro e o DNS é o endereço do
+                    site que você quer acessar na rede. </li>
+                
+                <li>Navegadores são programas utilizados para acessar a web.</li>
+
+            </ul>
+
+        <p>E Existem alguns tipos de servidores, Proxy que é um servidor focado em segurança que faz intermédio aos acessos dentro de servidor ou de clients a sites específicos, Banco de dados
+            que serve exclusivamente para armazenar os dados ou páginas web necessários, e-mail que armazena os e-mails dos usuários, DNS que é o servidor que armazena os endereços de domínio dos
+            sites entre outros mais. Servidores são divididos em duas partes, software que é o programa que configura e direciona a função do servidor e hardware que é a pare física do servidor.</p>
+
+        <p id="dns"><u>* DNS ou Domain Name system é o nome do seu site, ele associa o número IP ao domínio específico por exemplo: 000.000.000 = meusite.com</u></p>
+        
+        
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            
+        <hr>
+
+        <h5 id="html"><strong>HTML:</strong></h5>
+
+        <p>Html, Hyper Text Markup Language, não é uma linguagem de programação, é uma ferramenta de marcação de texto para web.</p>
+
+            <hr>
+ 
+        <p style="font-size:20px;"><strong>Tags:</strong></p>
+
+        <p>O html consiste no uso de tags que determinam o que será ou não exibido para o usuário, a primeira coisa que se deve saber sobre o uso de  tags  é que todas elas começam com (&lt;) e fecham
+            com (&gt;) para começar um documento html deve se colocar a tag !doctype que deve estar no início do documento para indicar que você está escrevendo em html 5 que é a versão atual do html,
+            Também vale lembrar que  as tags geralmente são terminadas em (&lt; / &gt;).</p>
+
+            <p>Explicações rápidas sobre as tags aprendidas:</p>
+
+            <ul>
+
+                <li><u><i>Html</i></u>: começa o documento e termina ele, todo o contéudo  está inserido dentro desta tag.</li>
+
+                <li><u><i>Title</i></u>: é o título que aparece lá em cima na aba da página.</li>
+
+                <li><u><i>Body</i></u>: é onde fica contido tudo que será exibido para o usuário.</li>
+
+                <li><u><i>H1, h2, h3, h4, h5, h6</i></u>: são tags título que seguem hierarquia como um título para separar diferentes seções do conteúdo.</li>
+
+                <li><u><i>P</i></u>: tag de parágrafo onde se coloca a informação de texto.</li>
+
+                <li><u><i>Strong</i></u>: deixa texto dentro em negrito.</li>
+
+                <li><u><i>I</i></u>: deixa texto dentro em itálico.</li>
+
+                <li><u><i>Img</i></u>: tag sem fechamento “/” usada para inserir uma imagem.</li>
+            
+                <li><u><i>Blockquote</i></u>: tag que permite citação de algo separado do teto normal.</li>
+
+                <li><u><i>Ul</i></u>: cria lista não ordenada.</li>
+
+                <li><u><i>Ol</i></u>: cria lista ordenada numericamente.</li>
+
+                <li><u><i>Li</i></u>: cria lisa dentro da lista, podendo ser repetida como tags filhas.</li>
+
+                <li><u><i>A</i></u>: ancora de link.</li>
+
+                <li><u><i>Small</i></u>: deixa o exto pequeno.</li>
+
+                <li><u><i>U</i></u>: sublinha o texto.</li>
+            
+                <li><u><i>Mark</i></u>: marca o texto dentro da tag.</li>
+
+                <li><u><i>Sup</i></u>: texto dentro desta tag fica subscrito acima da linha.</li>
+            
+                <li><u><i>Hr</i></u>: coloca uma linha separando uma tag da outra.</li>
+        
+            </ul>
+
+        <p>Existem também atributos, são seguidas do sinal de igual (=) e aspas ("") que é onde fica o valor definido, que podem ser colocados junto a algumas tag para definir certos aspectos:</p>
+
+            <ol>
+
+                <li><u><i>Target</i></u>: define trajeto, onde abrir algum link.</li>
+
+                <li><u><i>Title</i></u>: define um título para o link.</li>
+
+                <li><u>Width e Lenght<i></i></u>: define altura e largura.</li>
+
+                <li><u><i>Href</i></u>:atribui o link para o qual a ancora A será redirecionada.</li>
+
+                <li><u><i>Id</i></u>: define uma identificação para a tag.</li>
+
+             </ol>
+
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+
+             <hr>
+
+    <h6 id="link"><strong>Links:</strong></h6>
+             
+             <hr>
+
+        <p>Links de referência abaixo:</p>
+
+            <ul>
+            
+                <li><a href="https://aprendafazer.net/primeira-geracao-de-computadores-origem-historia-e-evolucao" target="_blank">Aprender a Fazer: Primeira Geração</a></li>
+
+                <li><a href="https://aprendafazer.net/segunda-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Segunda Geração</a></li>
+
+                <li><a href="https://aprendafazer.net/terceira-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Terceira Geração</a></li>
+
+                <li><a href="https://aprendafazer.net/quarta-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Quarta Geração</a></li>
+
+                <li><a href="https://www.youtube.com/watch?v=jyicnlx59R8" target="_blank">Youtube - Marks Brabo: Primeira Geração</a></li>
+
+                <li><a href="https://www.diferenca.com/evolucao-dos-computadores" target="_blank">Diferença: Evolução dos Computadores</a></li>
+
+                <li><a href="https://www.techtudo.com.br/noticias/2014/08/dia-da-informatica-confira-historia-do-computador-e-sua-evolucao.ghtml" target="_blank">Techtudo: Historia dos Computadores</a></li>
+                
+                <li><a href="https://celsokitamura.com.br/assembly/" target="_blank">Celso Kitamura: Assembly</a></li>
+
+                <li><a href="https://www.youtube.com/watch?v=mFdUqqwzbVs&t=710s" target="_blank">Youtube - PcMarvie: A Evolução dos Computadores</a></li>
+
+                <li><a href="https://www.todamateria.com.br/historia-da-internet/" target="_blank">Toda Materia: Historia da Inernet</a></li>
+
+                <li><a href="https://rockcontent.com/br/blog/historia-da-internet/" target="_blank">RocketContent: Historia da Internet</a></li>
+            
+                <li><a href="https://www.youtube.com/watch?v=S7d371WsIt0" target="_blank">Youtube - FalaCientista:Como surgiua Internet?</a></li>
+
+                <li><a href="https://www.tecmundo.com.br/historia/1778-a-world-wide-web-completa-20-anos-conheca-como-ela-surgiu.htm" target="_blank">Tecmundo: Wolrd Wide Web</a></li>
+
+                <li><a href="https://conceito.de/cliente-servidor" target="_blank">Conceito.de: Client e Servidor</a></li>
+
+                <li><a href="https://www.collectiveray.com/pt/diferentes-tipos-de-servidores" target="_blank">CollectiveRay: Diferentes Tipos de Servidores</a></li>
+
+                <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+
+            </ul>
+        
+        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
+            <hr>
 </body>
-</html>
+</html> 
