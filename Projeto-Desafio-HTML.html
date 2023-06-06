@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <head>
+
     <title>Desafio Html</title>
+   
+    <style>
+        body {
+            background-color: rgb(235, 235, 235);
+            padding-left: 280px;
+            padding-right: 280px;
+        }
+        h1 {
+            color:rgb(21, 58, 21);
+            font-size:40px;}
+        h2,h3,h4,h5,h6 {
+            font-size:30px;
+            color:rgb(255, 138, 138);     
+        }
+        p {width:700px;}
+        li {width:500px;}
+
+    </style>
+
 </head>
+
 <body>
     
-    <h1 style="font-size:40px;" id="inicio">Inicio
+    <h1 id="inicio">Inicio
     
-            <ul>
+            <ul style="font-size:20px;" >
     
-                <li style="font-size:30px;"><a href= "#historia">Historia</a></li>
+                <li><a href= "#historia">Historia</a></li>
     
-                <li style="font-size:30px;"><a href="#internet">Internet</a></li>
+                <li><a href="#internet">Internet</a></li>
     
-                <li style="font-size:30px;"><a href="#funcionamento">Servidor e Client</a></li>
+                <li><a href="#funcionamento">Servidor e Client</a></li>
     
-                <li style="font-size:30px;"><a href="#html">HTML</a></li>
+                <li><a href="#html">HTML</a></li>
     
-                <li style="font-size:30px;"><a href="#link">Links de Referência</a></li>
+                <li><a href="#link">Links de Referência</a></li>
     
             </ul>
+
             <hr>
     
-    <h2 style="font-size:30px;" id="historia"> Historia dos Computadores</h2>
+    <h2 id="historia"> Historia dos Computadores</h2>
 
     <hr>
         
-        <p style="font-size:20px;"><strong>A primeira geração de Computadores:</strong></p>
+        <p id="prima" style="font-size:20px;"><strong>A primeira geração de Computadores:</strong></p>
 
         <p> Se deu entre os anos de 1940 e 1959, que é o período em que se desenvolveram computadores o qual realizavam milhares
             de equações por segundo, uma por vez, e que substituíram as máquinas mais rudimentares que realizavam operações de forma
@@ -137,7 +159,7 @@
 
             <hr>
     
-             <h3 style="font-size:30px;" id="internet"><strong>Internet</strong></h3>
+             <h3 id="internet"><strong>Internet</strong></h3>
              
         <p style="font-size:20px;"><strong>Como surgiu a Internet</strong></P>
 
@@ -164,13 +186,6 @@
                 <li>Em 1985 a agora chamada Internet estava consolidada como a principal rede de comunicação mundial.</li>
             
             </ul> 
-                
-        <p id="morse"><u>* código Morse é um sistema binário que utiliza de pontos e linhas para representar letras, números e sinais gráficos com sons curtos e longos.</u></p>
-            
-
-        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
-       
-        <hr>
 
         <p style="font-size:20px;"><strong>World Wide Webe:</strong></p>
         
@@ -178,11 +193,13 @@
             mais tarde desenvolvendo o protocolo http que permitia acessar sites na web e o Html que um modo de marcação de texto para web facilitando para que o uso da internet
             fosse mais difundido.</p>
 
+        <p id="morse"><u>* Código Morse é um sistema binário que utiliza de pontos e linhas para representar letras, números e sinais gráficos com sons curtos e longos.</u></p>
+
         <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
 
             <hr>
 
-    <h4 style="font-size:30px;" id="funcionamento"><strong>Servidor e Client:</strong></h4>
+    <h4 id="funcionamento"><strong>Servidor e Client:</strong></h4>
     
             <hr>
 
@@ -190,12 +207,14 @@
             estes pedidos e envia a os dados de volta, como também pode servir para armazenar esses dados, então quando você abre seu navegador em seu notebook (este seria o client) você
             envia um pedido de acesso as informações contidas nesse site que estão armazenadas dento do servidor enquanto a máquina que envia as informações de volta para você baixar e ter
             acesso é o servidor.</p>
+          
             <ul>
 
                 <li>O processo de envio e recebimento dessas informações ocorre tanto por meio do TCP/IP quanto pelo <i><u><a href="#dns">*DNS</a></u></i>, seu computador tem um e o servidor outro e o DNS é o endereço do
                     site que você quer acessar na rede. </li>
                 
-                <li>Navegadores são programas utilizados para acessar a web. </li>
+                <li>Navegadores são programas utilizados para acessar a web.</li>
+
             </ul>
 
         <p>E Existem alguns tipos de servidores, Proxy que é um servidor focado em segurança que faz intermédio aos acessos dentro de servidor ou de clients a sites específicos, Banco de dados
@@ -209,25 +228,17 @@
             
         <hr>
 
-        <h5 style="font-size:30px;" id="html"><strong>HTML:</strong></h5>
-    
-            <hr>
+        <h5 id="html"><strong>HTML:</strong></h5>
 
         <p>Html, Hyper Text Markup Language, não é uma linguagem de programação, é uma ferramenta de marcação de texto para web.</p>
 
             <hr>
  
         <p style="font-size:20px;"><strong>Tags:</strong></p>
-        
-            <hr>
 
-        <p>O html consiste no uso de tags que determinam o que será ou não exibido para o usuário, a primeira coisa que se deve saber sobre o uso de  tags  é que todas elas começam com &lt; e fecham
-            com &gt; para começar um documento html deve se colocar a tag !doctype que deve estar no início do documento para indicar que você está escrevendo em html 5 que é a versão atual do html,
-            Também vale lembrar que  as tags geralmente são terminadas em &lt; / &gt;.</p>
-        
-        <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
-
-            <hr>
+        <p>O html consiste no uso de tags que determinam o que será ou não exibido para o usuário, a primeira coisa que se deve saber sobre o uso de  tags  é que todas elas começam com (&lt;) e fecham
+            com (&gt;) para começar um documento html deve se colocar a tag !doctype que deve estar no início do documento para indicar que você está escrevendo em html 5 que é a versão atual do html,
+            Também vale lembrar que  as tags geralmente são terminadas em (&lt; / &gt;).</p>
 
             <p>Explicações rápidas sobre as tags aprendidas:</p>
 
@@ -271,7 +282,7 @@
         
             </ul>
 
-        <p>Existem também atributos, são seguidas do sinal de = e aspas que é onde fica o valor definido, que podem ser colocados junto a algumas tag para definir certos aspectos:</p>
+        <p>Existem também atributos, são seguidas do sinal de igual (=) e aspas ("") que é onde fica o valor definido, que podem ser colocados junto a algumas tag para definir certos aspectos:</p>
 
             <ol>
 
@@ -291,7 +302,7 @@
 
              <hr>
 
-    <h6 style="font-size:30px;" id="link"><strong>Links:</strong></h6>
+    <h6 id="link"><strong>Links:</strong></h6>
              
              <hr>
 
@@ -299,44 +310,38 @@
 
             <ul>
             
-                <li></li>
+                <li><a href="https://aprendafazer.net/primeira-geracao-de-computadores-origem-historia-e-evolucao" target="_blank">Aprender a Fazer: Primeira Geração</a></li>
 
-                <li></li>
+                <li><a href="https://aprendafazer.net/segunda-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Segunda Geração</a></li>
 
-                <li></li>
+                <li><a href="https://aprendafazer.net/terceira-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Terceira Geração</a></li>
 
-                <li></li>
+                <li><a href="https://aprendafazer.net/quarta-geracao-de-computadores-origem-historia-e-evolucao/" target="_blank">Aprender a Fazer: Quarta Geração</a></li>
 
-                <li></li>
+                <li><a href="https://www.youtube.com/watch?v=jyicnlx59R8" target="_blank">Youtube - Marks Brabo: Primeira Geração</a></li>
 
-                <li></li>
+                <li><a href="https://www.diferenca.com/evolucao-dos-computadores" target="_blank">Diferença: Evolução dos Computadores</a></li>
 
-                <li></li>
+                <li><a href="https://www.techtudo.com.br/noticias/2014/08/dia-da-informatica-confira-historia-do-computador-e-sua-evolucao.ghtml" target="_blank">Techtudo: Historia dos Computadores</a></li>
+                
+                <li><a href="https://celsokitamura.com.br/assembly/" target="_blank">Celso Kitamura: Assembly</a></li>
 
-                <li></li>
+                <li><a href="https://www.youtube.com/watch?v=mFdUqqwzbVs&t=710s" target="_blank">Youtube - PcMarvie: A Evolução dos Computadores</a></li>
 
-                <li></li>
+                <li><a href="https://www.todamateria.com.br/historia-da-internet/" target="_blank">Toda Materia: Historia da Inernet</a></li>
 
-                <li></li>
-
-                <li></li>
+                <li><a href="https://rockcontent.com/br/blog/historia-da-internet/" target="_blank">RocketContent: Historia da Internet</a></li>
             
-                <li></li>
+                <li><a href="https://www.youtube.com/watch?v=S7d371WsIt0" target="_blank">Youtube - FalaCientista:Como surgiua Internet?</a></li>
 
-                <li></li>
+                <li><a href="https://www.tecmundo.com.br/historia/1778-a-world-wide-web-completa-20-anos-conheca-como-ela-surgiu.htm" target="_blank">Tecmundo: Wolrd Wide Web</a></li>
 
-                <li></li>
+                <li><a href="https://conceito.de/cliente-servidor" target="_blank">Conceito.de: Client e Servidor</a></li>
 
-                <li></li>
+                <li><a href="https://www.collectiveray.com/pt/diferentes-tipos-de-servidores" target="_blank">CollectiveRay: Diferentes Tipos de Servidores</a></li>
 
-                <li></li>
+                <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
 
-                <li></li>
-
-                <li></li>
-
-                <li></li>
-            
             </ul>
         
         <p><i><a href= "#inicio">(Voltar ao Inicio)</a></i></p>
