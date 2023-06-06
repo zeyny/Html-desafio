@@ -17,3 +17,10 @@ O desafio consiste em explicar o que foi aprendido durante as aulas utilizando o
 >_**body**_ é aonde vai ficar contida toda a informação restantes, comporta as outras tags dentro de sí.
 >
 >_**h1**_ dertermina título e assim por diante em sequencia h2, h3, h4, h5 e h6.
+
+#### Adição de ultimos elementos
+
+>Mais texto para completar o conteúdo foi adicionado, novas tags utilizadas e
+links ainda devem ser inseridos, seria esse o final do projeto ?
+>
+>_Talvez seja nescessaria uma revizitação do html para uma melhor escrita.
