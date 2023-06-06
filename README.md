@@ -33,3 +33,4 @@ Conteúdo inserido finalmente(finalizeido)
 >Links inseridos.
 
 Final do projeto ?
+Faltou inserir imagens eu diria 0-0.
