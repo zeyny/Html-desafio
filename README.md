@@ -18,18 +18,20 @@ O desafio consiste em explicar o que foi aprendido durante as aulas utilizando o
 >
 >_**h1**_ dertermina título e assim por diante em sequencia h2, h3, h4, h5 e h6.
 
-update-050623
+#### Branch-030623
+Informações sobre  as gerações e como a internet surgiu atuaizadas, metade do conteúdo a inserir.
 
-#### Adição de ultimos elementos
+>Titulos e links estão a ser completos##### Branch-030623
+Informações sobre  as gerações e como a internet surgiu atuaizadas, metade do conteúdo a inserir.
+
+>Titulos e links estão a ser completos
+
+##### update-050623
 
 >Mais texto para completar o conteúdo foi adicionado, novas tags utilizadas e
 links ainda devem ser inseridos, seria esse o final do projeto ?
 >
 >_Talvez seja nescessaria uma revizitação do html para uma melhor escrita.
 
-##### Branch-030623
-Informações sobre  as gerações e como a internet surgiu atuaizadas, metade do conteúdo a inserir.
-
->Titulos e links estão a ser completos.
 
 Projeto-updates
