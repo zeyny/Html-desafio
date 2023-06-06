@@ -33,5 +33,16 @@ links ainda devem ser inseridos, seria esse o final do projeto ?
 >
 >_Talvez seja nescessaria uma revizitação do html para uma melhor escrita.
 
+###### Ultimas Adições update-060623
+
+Conteúdo inserido finalmente(finalizeido)
+>tags Finalizadas.
+>Elementos e atributos utilizados.
+>Links inseridos.
+
+Final do projeto ?
+Faltou inserir imagens eu diria 0-0.
+=======
 
 Projeto-updates
+
